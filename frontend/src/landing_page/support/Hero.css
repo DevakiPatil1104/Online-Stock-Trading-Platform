@@ -1,0 +1,103 @@
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+  min-height: 50vh;
+}
+
+/* Top bar */
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  margin: 10px 300px ;
+}
+
+#supportMain {
+    margin: 0px 200px ;
+}
+
+.leftSection {
+  padding-right: 40px;
+}
+
+.rightSection {
+  padding-left: 300px;
+}
+
+#supportWrapper h4 {
+  margin: 0;
+}
+
+#supportWrapper a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Layout */
+.row {
+  padding: 40px 50px;
+}
+
+/* Left side */
+.leftSection h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.leftSection input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Links */
+.links a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* Right side */
+.rightSection {
+  padding-top: 10px;
+}
+
+.rightSection h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.rightSection ol {
+  padding-left: 0px;
+}
+
+.rightSection li {
+  margin-bottom: 10px;
+}
+
+.rightSection a {
+  color: white;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .row {
+    padding: 20px;
+  }
+
+  .leftSection,
+  .rightSection {
+    margin-bottom: 30px;
+  }
+}

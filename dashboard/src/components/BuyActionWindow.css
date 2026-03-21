@@ -1,0 +1,110 @@
+.containerClass {
+  --radius: 10px;
+  width: 380px;
+  background: #ffffff;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  box-sizing: border-box;
+  z-index: 1000;
+  border-radius: var(--radius);
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: slideUp 0.25s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.regular-order {
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+/* Inputs row */
+.inputs {
+  display: flex;
+  gap: 15px;
+}
+
+/* Field styling */
+.inputs fieldset {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px 10px;
+  transition: border 0.2s ease;
+}
+
+.inputs fieldset:focus-within {
+  border: 1px solid #4184f3;
+}
+
+.inputs legend {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.inputs input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 8px 0;
+  background: transparent;
+}
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.buttons span {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Button base */
+.btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Buy button */
+.btn-blue {
+  background: #4184f3;
+  color: white;
+}
+
+.btn-blue:hover {
+  background: #2f6fd6;
+  transform: translateY(-1px);
+}
+
+/* Cancel button */
+.btn-grey {
+  background: #f0f0f0;
+  color: #444;
+}
+
+.btn-grey:hover {
+  background: #ddd;
+}
