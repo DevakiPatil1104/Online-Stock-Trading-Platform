@@ -1,4 +1,4 @@
-# Full-Stack MERN Trading Platform
+# Tradesphere - Full-Stack MERN Trading Platform
 
 ---
 
