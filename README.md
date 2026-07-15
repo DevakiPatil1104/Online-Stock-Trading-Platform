@@ -1,4 +1,4 @@
-# Tradesphere - Full-Stack MERN Trading Platform
+# TradeSphere - Full-Stack MERN Trading Platform
 
 ---
 
@@ -14,7 +14,7 @@ TradeSphere is a full-stack trading platform built using the MERN stack. It allo
 * **Dashboard:** React.js
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
-* **Testing:** Jest, React Testing Library
+* **Testing:** Jest
 * **Charts:** Chart.js
 
 ---
